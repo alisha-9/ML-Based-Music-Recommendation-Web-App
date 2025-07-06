@@ -3,8 +3,22 @@
 An intelligent web application that suggests songs based on user preferences using **Content-Based Filtering** powered by machine learning. Built with **FastAPI**, **pandas**, **scikit-learn**, and deployed via **Render**.
 
 ---
+## 📂 Dataset
 
-## 📸 Preview
+The project uses a dataset of **Spotify music tracks** containing the following columns:
+
+- 🎵 `name`: Track title  
+- 🧑‍🎤 `artists`: Artist(s) of the song  
+- 🎧 `genre`: Genre of the track  
+- 💿 Additional metadata like album, popularity, etc. (optional)
+
+🟢 Dataset Size: 15000+  
+📁 Location: `data/spotify_tracks.csv`
+
+The dataset is used to build **TF-IDF-based feature vectors** from song titles, and content filtering is applied to recommend similar tracks.
+
+---
+## 📸 Algorithm
 
 ![MUSIC RECOMMENDATION](https://github.com/user-attachments/assets/667a87ee-fcd3-4d05-926c-1a5ebcfee644)
 
