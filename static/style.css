@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input,
+button {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Spinner */
+#loading {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+/* Results container */
+.results-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Individual recommendation card */
+.song-card {
+    background: #eaf4ff;
+    padding: 12px 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.song-card strong {
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.song-card small {
+    display: block;
+    color: #666;
+}
+
+.song-card em {
+    display: block;
+    color: #999;
+    font-size: 0.85rem;
+    margin-top: 4px;
+}

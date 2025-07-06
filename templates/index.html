@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Recommendation</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎵 Music Recommender</h1>
+        <form id="recommendForm">
+            <input type="text" id="song_title" placeholder="Song Title">
+            <input type="text" id="genre" placeholder="Genre">
+            <input type="text" id="artist" placeholder="Artist">
+            <input type="number" id="top_n" value="5" min="1">
+            <button type="submit">Get Recommendations</button>
+        </form>
+
+        <!-- Loading spinner -->
+        <div id="loading" style="display:none;">Loading...</div>
+
+        <!-- Recommendations will appear here -->
+        <div id="results" class="results-container"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
