@@ -12,7 +12,7 @@ An intelligent web application that suggests songs based on user preferences usi
 
 ## 🚀 Live Demo
 
-👉 [Try it Live on Render](https://music-recommender.onrender.com)
+👉 [Try it Live on Render](https://ml-based-music-recommendation-web-app.onrender.com)
 
 ---
 
